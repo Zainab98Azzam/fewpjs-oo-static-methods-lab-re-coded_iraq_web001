@@ -1,5 +1,5 @@
 class Formatter {
  static capitalize(string){
-   return this.string.index
+    return this.capitalize(this._firstName);
  }
 }
