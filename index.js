@@ -1,5 +1,6 @@
 class Formatter {
  static capitalize(string){
-    return this.capitalize(this._firstName);
+    return this.string.charAt(0).toUpperCase() + string.slice(1);
  }
+ 
 }
