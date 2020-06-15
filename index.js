@@ -8,7 +8,12 @@ class Formatter {
  }
  static titlesize(string){
    
- 
-   
+ if (string==='the' || string==='a')
+ {
+   return string.charAt(0).toUpperCase() + string.slice(1);
+ }
+   else{
+     return string.toUpperCase()
+   }
  }
 }
