@@ -1,3 +1,5 @@
 class Formatter {
- static ca
+ static capitalize(string){
+   return this.string.index
+ }
 }
